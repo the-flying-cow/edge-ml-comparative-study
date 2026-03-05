@@ -15,7 +15,7 @@ This project is a study of model selection under hardware constraints, and the t
 7. **Hardcoded Sample Test**: create a hardcoded sample input on the Arduino to test the inference code and verify the output against expected results.
 
 
-# Performance Evaluation1
+# Performance Evaluation
 Evaluate the performance of each model based on:
 - **Average Inference Time**: measure the average time taken for the Arduino to make a prediction using each model.
 - **Average Memory Usage**: assess the average memory footprint of each model on the Arduino, including the size of the model parameters and the code.
@@ -29,5 +29,5 @@ Evaluate the performance of each model based on:
 
 Based on the performance evaluation, the Decision Tree model demonstrates superior efficiency in terms of inference time and memory usage compared to Logistic Regression. The Decision Tree's lower flash usage along with its significantly faster inference time, makes it a more suitable choice for deployment on resource-constrained devices like the Arduino Uno 3. This is because Logistic Rergression requires compiled code for multiplication, loop operations and calculations, but Decision Trees only compile into branch instructions. Since, both models share the same feature, scaler and parameter arrays, SRAM usage is same for both models.
 
-# OUtput Visuals
+# Output Visuals
 https://drive.google.com/drive/folders/18PJrPAi96iLW8x_JwXZXvK5xXz6VmfIP?usp=sharing
