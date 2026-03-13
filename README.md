@@ -1,7 +1,7 @@
 # Inferecing ML algorithm on Arduino Uno 3
 
 # Objective
-The objetive of ths project is to inference simple ML algorithms on Arduino Uno 3, and comparing their performance based on deployability and efficiency on these resource-constrained devices.
+The objetive of this project is to inference simple ML algorithms on Arduino Uno 3, and comparing their performance based on deployability and efficiency on these resource-constrained devices.
 
 This project is a study of model selection under hardware constraints, and the trade-offs between model complexity and perforamce on embedded systems.
 
